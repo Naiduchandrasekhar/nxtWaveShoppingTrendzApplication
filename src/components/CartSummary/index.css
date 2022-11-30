@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.cartSummaryContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-bottom: 25px;
+  font-family: 'Roboto';
+}
+
+.orderTotal {
+  color: #616e7c;
+  font-size: 20px;
+}
+
+.itemsTotal {
+  color: #616e7c;
+  font-size: 15px;
+}
+
+.cost {
+  color: rgba(2, 2, 2, 0.945);
+}
+
+.checkOutButton {
+  background-color: #0b69ff;
+  padding: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #ffff;
+  width: 100%;
+}
